@@ -1,6 +1,7 @@
 ## Introduction
 
-Docker container for develpment of redmine plugins.
+Docker container for develpment of redmine plugins. This image is based on https://github.com/digitalwerk-gmbh/docker-rails4.
+
 Pull command:
 
 ```
