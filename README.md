@@ -1,12 +1,4 @@
-Docker container for application development using rails 5.
-Start the image with the command:
-
+Run this image using:
 ```
-docker run -it -p 3000:3000/tcp -v <rails-app-path>:/app rails5 /bin/bash
-```
-
-or if the container already exists:
-
-```
-docker start -ai <container-id>
+docker run -ti -p 3000:3000 -v <abs path containing plugins>:/opt/redmine/plugins couchbelag/redmine-plugin-dev:3.4 /bin/redmine <development|production|test>
 ```
